@@ -60,3 +60,21 @@ if a > c:
 if b > c:
     b,c = c,b
 print(a,b,c)
+
+#fibonacci series
+n = int(input("Enter the range: "))
+first = 0
+second = 1
+if(n<=2):
+    print("Not a valid number")
+else:
+    print(first)
+    print(second)
+    for i in range(n-2):
+        third = first + second
+        print(third)
+        first = second
+        second = third
+
+
+#
