@@ -75,6 +75,3 @@ else:
         print(third)
         first = second
         second = third
-
-
-#
